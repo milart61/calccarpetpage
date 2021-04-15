@@ -16,12 +16,12 @@
       <h1 data-id="22">расчет стоимости ковровых дорожек</h1>
 
 
-   
+
       <div class="calc-select">
         <h3>выберите материал *</h3>
         <select class="select-number">
-          <option value="0" id="materil-select" >Выберите материал</option>
-          <option value="1" id="select-wool" >Шерсть</option>
+          <option value="0" id="materil-select">Выберите материал</option>
+          <option value="1" id="select-wool">Шерсть</option>
           <option value="2" id="select-cotton">Хлопок</option>
           <option value="3" id="select-acril">Акрил</option>
         </select>
@@ -30,55 +30,74 @@
 
       <div class="calc-wrap">
 
-        <form class="calc-form">
-          <h3>Выберите цвет</h3>
-          <p><label class="heder-label"><input type="radio" name="kover" value="red" class="label-red"
-                checked /><span>Красный</span>
-            </label>
-          </p>
-          <p><label class="heder-label"><input type="radio" name="kover" value="blue"
-                class="label-blue" /><span>Синий</span>
-            </label>
-          </p>
-          <p><label class="heder-label"><input type="radio" name="kover" value="dreen"
-                class="label-green" /><span>Зеленый</span>
-            </label>
-          </p>
-        </form>
-        <div class="calc-img"><img src="images/wool/wool-red.jpg" alt="ковры" class="calc-img-on"></div>
 
-        <div class="input-vertical">
+        <h3>Выберите цвет</h3>
 
-          <div class="calc-vertical-wrep ">
-            <div class="calc-vertical">
-              <p><span class="point-vertical"></span><sub>30 м</sub></p>
-              <p><span class="point-vertical"></span><sub>25 м</sup></p>
-              <p><span class="point-vertical"></span><sub>20 м</sup></p>
-              <p><span class="point-vertical"></span><sub>15 м</sup></p>
-              <p><span class="point-vertical"></span><sub>10 м</sub></p>
+        <div class="calc-form-wrapper">
+
+          <form class="calc-form">
+            <div class="calc-form-color">
+
+              <p><label class="heder-label"><input type="radio" name="kover" value="red" class="label-red"
+                    checked /><span>Красный</span>
+                </label>
+              </p>
+              <p><label class="heder-label"><input type="radio" name="kover" value="blue"
+                    class="label-blue" /><span>Синий</span>
+                </label>
+              </p>
+              <p><label class="heder-label"><input type="radio" name="kover" value="dreen"
+                    class="label-green" /><span>Зеленый</span>
+                </label>
+              </p>
+
+            </div><!-- calc-form-color -->
+
+          </form>
+
+          <div class="calc-box">
+            <div class="calc-img">
+              <img src="images/wool/wool-red.jpg" alt="ковры" class="calc-img-on">
+            </div><!-- calc-img -->
+
+            <div class="input-vertical">
+              <div class="calc-vertical-wrep ">
+                <div class="calc-vertical">
+                  <p><span class="point-vertical"></span><sub>30 м</sub></p>
+                  <p><span class="point-vertical"></span><sub>25 м</sup></p>
+                  <p><span class="point-vertical"></span><sub>20 м</sup></p>
+                  <p><span class="point-vertical"></span><sub>15 м</sup></p>
+                  <p><span class="point-vertical"></span><sub>10 м</sub></p>
+
+                </div>
+
+                
+              </div> <!-- calc-vertical-wrep -->
+
+
+              <input type="range" class="rang-vertical" min="20" max="100" value="20" step="20">
+              <h4>длина </h4>
+            </div><!-- input-vertical -->
+          </div><!-- calc-box -->
+
+
+
+          <div class="input-gorizont">
+            <div class="calc-point">
+              <p class="point-span">1.5 м</p>
+              <p class="point-span"> 2.0 м </p>
+              <p class="point-span"> 2.5 м </p>
 
             </div>
-          </div> <!-- calc-vertical-wrep -->
 
 
-          <input type="range" class="rang-vertical" min="20" max="100" value="20" step="20">
-          <h3>длина </h3>
-        </div>
+            <input type="range" class="rang-gorizont" min="30" max="90" value="30" step="30">
+                        <h4>ширина </h4>
+          </div><!-- input-gorizont -->
 
+        </div><!-- calc-form-wrapper -->
+      </div><!-- calc-wrap -->
 
-
-      </div> <!-- calc-wrap -->
-      <div class="input-gorizont">
-        <div class="calc-point">
-          <p class="point-span">1.5 м</p>
-          <p class="point-span"> 2.0 м </p>
-          <p class="point-span"> 2.5 м </p>
-
-        </div>
-        <h3>ширина </h3>
-
-        <input type="range" class="rang-gorizont" min="30" max="90" value="30" step="30">
-      </div>
 
 
 
